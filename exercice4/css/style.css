@@ -6,41 +6,72 @@
 
 body {
     background-color: grey;
+    transition: 1s;
 }
 
-.carres__content {
+h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#box span {
+    opacity : 0;
+    transition: 2s;
+}
+
+.carres {
     display: flex;
     gap: 50px;
     justify-content: center;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
-.carre1,
-.carre2,
-.carre3 {
+.carrefb,
+.carretw,
+.carreinsta {
     width: 200px;
     height: 200px;
-    position: relative;
     display: grid;   
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
+    transition: .5s;
 }
 
 .logo {
-    font-size: 75px;
+    padding-top: 50px;
+    font-size: 80px;
+    transition: 1s;
 }
 
-.carre1 {
+.carrefb {
     background-color: #3b5998;
 }
 
-.carre2 {
+.carretw {
     background-color: #00acee;
 }
 
-.carre3 {
-background-color: #c32aa3;
+.carreinsta {
+    background-color: #c32aa3;
 }
+
+/* .box.active {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    transform: scale(1.2, 1.2);
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.box.active span {
+    opacity: 1;
+}
+.box.active .logo {
+    transform: rotate(360deg);
+    padding-top: 0px;
+} */
