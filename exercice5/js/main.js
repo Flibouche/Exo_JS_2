@@ -1,0 +1,1 @@
+const affichage = document.querySelector(".quotes");
