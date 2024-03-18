@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+.carres__content {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.carre1,
+.carre2,
+.carre3 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: grid;   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    font-size: 75px;
+}
+
+.carre1 {
+    background-color: #3b5998;
+}
+
+.carre2 {
+    background-color: #00acee;
+}
+
+.carre3 {
+background-color: #c32aa3;
+}

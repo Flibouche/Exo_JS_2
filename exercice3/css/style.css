@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.carres {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.carre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: olivedrab;
+    height: 200px;
+    width: 200px;
+    transition: 1s;
+}

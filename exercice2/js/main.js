@@ -1,12 +1,13 @@
-const box = document.querySelector(".carre");
+const boxes = document.querySelectorAll(".carre");
 const magicBox = document.querySelector(".magicbox")
-const boxCSS = window.getComputedStyle(box);
-const cssValue = boxCSS.getPropertyValue("background-color", "rgb");
-box.addEventListener('click', function() {
-    magicBox.style.setProperty('background-color', cssValue);
-    magicBox.innerHTML = cssValue;
-})
 
-
+boxes.forEach(box => {
+    box.addEventListener('click', function() {
+        const boxCSS = window.getComputedStyle(box);
+        const cssValue = boxCSS.getPropertyValue("background-color", "rgb");
+        magicBox.style.setProperty('background-color', cssValue);
+        magicBox.innerHTML = cssValue;
+});
+});
 
 console.log()

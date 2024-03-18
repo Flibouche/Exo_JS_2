@@ -6,6 +6,7 @@
 
 .carres {
     display: flex;
+    gap: 5px;
 }
 
 .carre {
@@ -14,7 +15,11 @@
 }
 
 .magicbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 200px;
     width: 200px;
     border: 1px solid black;
+    color: white;
 }
