@@ -1,3 +1,4 @@
+// Sélectionne tous les éléments avec la classe "carre" dans le document HTML
 const boxes = document.querySelectorAll(".carre");
 
 boxes.forEach(box => {
