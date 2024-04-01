@@ -13,8 +13,8 @@ Introduction to JavaScript with some exercices with CSS attributes.
 JavaScript, HTML, CSS.
 
 ## Projects
-You can see them here : <br>
-<a href="https://codepen.io/Flibouche/pen/xxePPwy">Box_1</a> <br>
-<a href="https://codepen.io/Flibouche/pen/WNWXXGp">Box_2</a> <br>
-<a href="https://codepen.io/Flibouche/pen/ExJbbgd">Roration</a> <br>
-<a href="https://codepen.io/Flibouche/pen/mdgqqOJ">Social_Media</a> <br>
+You can see them here :
+- Box_1 : <a href="https://codepen.io/Flibouche/pen/xxePPwy">Box_1</a>
+- Box_2 : <a href="https://codepen.io/Flibouche/pen/WNWXXGp">Box_2</a>
+- Rotation : <a href="https://codepen.io/Flibouche/pen/ExJbbgd">Rotation</a>
+- Social_Media : <a href="https://codepen.io/Flibouche/pen/mdgqqOJ">Social_Media</a>
