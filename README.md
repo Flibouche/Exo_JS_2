@@ -14,7 +14,7 @@ JavaScript, HTML, CSS.
 
 ## Projects
 You can see them here :
-<a hred="https://codepen.io/Flibouche/pen/xxePPwy">Box_1</a>
-<a hred="https://codepen.io/Flibouche/pen/WNWXXGp">Box_2</a>
-<a hred="https://codepen.io/Flibouche/pen/ExJbbgd">Roration</a>
-<a hred="https://codepen.io/Flibouche/pen/mdgqqOJ">Social_Media</a>
+<a href="https://codepen.io/Flibouche/pen/xxePPwy">Box_1</a>
+<a href="https://codepen.io/Flibouche/pen/WNWXXGp">Box_2</a>
+<a href="https://codepen.io/Flibouche/pen/ExJbbgd">Roration</a>
+<a href="https://codepen.io/Flibouche/pen/mdgqqOJ">Social_Media</a>
